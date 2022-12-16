@@ -79,7 +79,8 @@ const App = () => {
         />
         
         
-        <Text style={styles.titleText}>{ (Number(tacka) + Number(produkcja) + Number(reszta) + Number(maszyna) + Number(arkusze) + Number(jakosc) + Number(niepelneark)+ Number(niepelnepal)+ Number(inne)) - Number(pobrane) }</Text>
+        <Text style={styles.BANDEROLE}>STRATA/ZYSK:{ (Number(tacka) + Number(produkcja) + Number(reszta) + Number(maszyna) + Number(arkusze) + Number(jakosc) + Number(niepelneark)+ Number(niepelnepal)+ Number(inne)) - Number(pobrane) }</Text>
+        <Text style={styles.TOK}>TOK:{Number(tacka) + Number(reszta) + Number(maszyna) + Number(niepelneark)+ Number(niepelnepal)+ Number(inne)}</Text>
       </View>
     </SafeAreaView>
   );
@@ -90,21 +91,26 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    marginTop: 35,
+    marginTop: 0,
     backgroundColor: '#ffffff',
   },
   input: {
     width: 250,
     height: 44,
     padding: 10,
-    marginTop: 20,
+    marginTop: 5,
     marginBottom: 10,
     backgroundColor: '#e8e8e8'
   },  
-  titleText: {
-    fontSize: 20,
+  BANDEROLE: {
+    fontSize: 15,
     fontWeight: "bold",
     color: 'red'
+  },
+  TOK: {
+    fontSize: 15,
+    fontWeight: "bold",
+    color: 'green'
   },
   
 });
