@@ -68,7 +68,7 @@ const App = () => {
         <TextInput
           value={niepelnepal}
           onChangeText={(niepelnepal) => setNiepelnePal(niepelnepal)}
-          placeholder={'Niepełne Arkusze'}
+          placeholder={'Niepełna Paleta'}
           style={styles.input}
         />
         <TextInput
@@ -77,10 +77,9 @@ const App = () => {
           placeholder={'Inne (zebrane/znalezione)'}
           style={styles.input}
         />
-        
-        
         <Text style={styles.BANDEROLE}>STRATA/ZYSK:{ (Number(tacka) + Number(produkcja) + Number(reszta) + Number(maszyna) + Number(arkusze) + Number(jakosc) + Number(niepelneark)+ Number(niepelnepal)+ Number(inne)) - Number(pobrane) }</Text>
         <Text style={styles.TOK}>TOK:{Number(tacka) + Number(reszta) + Number(maszyna) + Number(niepelneark)+ Number(niepelnepal)+ Number(inne)}</Text>
+        
       </View>
     </SafeAreaView>
   );
