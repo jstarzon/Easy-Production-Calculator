@@ -2,7 +2,6 @@
 import React, {useState} from 'react';
 import { StyleSheet, View, Text, SafeAreaView, TextInput } from 'react-native';
 
-
 const Koniec = () => {
   const placeholders = {
     pobrane: 'Pobrane Banderole',
