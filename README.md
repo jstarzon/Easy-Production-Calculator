@@ -1,23 +1,8 @@
 # ExciseStampCalculator
-Apka webowa/androidowa do obliczania banderol napisana w react z pythonowym backendem
+Apka webowa/androidowa do obliczania banderol napisana w react.
 
-# Uzycie:
-Aby uruchomić ją na komputerze wystarczy otworzyc terminal w folderze z plikami i wpisać: 
+Napisałem te prostą apkę ponieważ chciałem uprościć powtarzalną czynność liczenia banderol na kalkulatorze.
 
-- npx expo start 
+aby uruchomić ją na komputerze wystarczy otworzyc terminal w folderze z plikami i wpisać: 
 
-Przed uruchomieniem backendu wpisać hasło do bazy danych "your_password" w backend.py
-
-Aby uruchomić backend wpisz komende:
-
-- python backend.py
-
-Aby stworzyc baze danych należy również wpisać hasło do bazy danych i uruchomić komende:
-
-- create_database.py
-
-# Features
-- Obliczanie banderol
-- Dodawanie banderol do bazy danych
-- API (python)
-- Skrypt tworzacy baze danych PostgreSQL
+npx expo start 
