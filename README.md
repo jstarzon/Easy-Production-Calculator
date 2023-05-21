@@ -1,4 +1,4 @@
-# ExciseStampCalculator
+# Eeasy Production Calculator
 Apka webowa/androidowa do obliczania banderol napisana w react z pythonowym backendem
 
 # Uzycie:
