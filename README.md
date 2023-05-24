@@ -14,7 +14,7 @@ Aby uruchomić backend wpisz komende:
 
 Aby stworzyc baze danych należy również wpisać hasło do bazy danych i uruchomić komende:
 
-- create_database.py
+- python create_database.py
 
 # Features
 - Obliczanie banderol
